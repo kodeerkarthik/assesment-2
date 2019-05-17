@@ -307,13 +307,38 @@ footer {
 	color: #66686b;
 }
 .box {
-		position: relative;
-    z-index: 1;
-    border-radius: 7px;
-    padding: 20px;
-    top: -30px;
-    left: 35%;
-    display: inline-block;
-    background: #e81050;
+	position: relative;
+	z-index: 1;
+	border-radius: 7px;
+	padding: 20px;
+	top: -30px;
+	left: 35%;
+	display: inline-block;
+	background: #e81050;
 }
 .marqbtn { padding: 20px; }
+.btn:hover {
+	background-color: transparent;
+}
+.btn2:hover {
+	background-color: transparent;
+}
+.image { position: relative }
+.hide {
+	display: none;
+	width: 50px;
+	position: absolute;
+	margin: 0;
+	bottom: 100px;
+	background: #e81050;
+	z-index: 1;
+}
+.hideicn {
+	font-size: 25px;
+	margin: 10px;
+}
+.image:hover .hide {
+	display: block;
+}
+
+
